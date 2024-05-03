@@ -8,5 +8,5 @@
 //My Solution
 
 function solution(str, ending){
-    return (str[str.length-1] === ending[ending.length-1]) ? true : false
+    return str.endsWith(ending)
     }
